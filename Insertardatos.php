@@ -6,7 +6,7 @@
  
   $params = json_decode($json); // DECODIFICA EL JSON Y LO GUARADA EN LA VARIABLE
   
-  require("../comun/db.php"); // IMPORTA EL ARCHIVO CON LA CONEXION A LA DB
+  require("./comun/db.php"); // IMPORTA EL ARCHIVO CON LA CONEXION A LA DB
 
   $conexion = conexion(); // CREA LA CONEXION
   
