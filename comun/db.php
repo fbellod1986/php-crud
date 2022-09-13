@@ -5,7 +5,7 @@
     function conexion(){
 
 
-        $enlace = mysqli_connect('localhost', 'root', '', 'pruebas1'); //conexion con la base de datos
+        $enlace = mysqli_connect('us-cdbr-east-06.cleardb.net', 'root', '', 'heroku_cdd0ca7034396cc'); //conexion con la base de datos
         
         if(!$enlace){ //if $enlace esto da siempre true (Si tenemos error en la conexion por eso pone !)
         echo "Error: No se puede conectara MySQL." . PHP_EOL;
