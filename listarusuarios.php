@@ -4,7 +4,7 @@
   
   global $datos; 
   
-  require("../comun/db.php"); // IMPORTA EL ARCHIVO CON LA CONEXION A LA DB
+  require("././comun/db.php"); // IMPORTA EL ARCHIVO CON LA CONEXION A LA DB
  
   
   $conexion = conexion(); // CREA LA CONEXION
